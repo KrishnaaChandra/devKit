@@ -22,7 +22,7 @@ public class AddService {
     @PostMapping("/addNewService")
     public ModelAndView addNewService(@RequestBody ObjectNode jsonData) {
 
-        collectionDetailsMap.put();
+        collectionDetailsMap.put("");
 
         return new ModelAndView("", params);
     }
