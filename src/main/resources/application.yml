@@ -1,0 +1,13 @@
+server:
+    context-path: /devkit
+    port: 8094
+
+spring:
+    main:
+        banner-mode: "off"
+
+logging:
+    level:
+        org.springframework : warn
+        io.pheonixlabs : debug
+    pattern.file: "%d{yyyy-MM-dd HH/:mm:ss} :: %-5p :: %x{ListenerThreadId} :: %c{1}:%L - %m%n"
