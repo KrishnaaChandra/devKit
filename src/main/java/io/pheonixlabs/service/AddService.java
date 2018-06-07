@@ -19,12 +19,12 @@ public class AddService {
 
     public static Map<String, CollectionDetails> collectionDetailsMap = new LinkedHashMap<>();
 
-    @PostMapping("/addNewService")
+/*    @PostMapping("/addNewService")
     public ModelAndView addNewService(@RequestBody ObjectNode jsonData) {
 
         collectionDetailsMap.put("");
 
         return new ModelAndView("", params);
-    }
+    }*/
 
 }
